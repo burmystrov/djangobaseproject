@@ -5,6 +5,8 @@ PASSWORD_HASHERS = (
     'django.contrib.auth.hashers.MD5PasswordHasher',
 )
 
+USE_I18N = False
+
 class DisableMigrations(object):
     def __contains__(self, item):
         return True
