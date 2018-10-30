@@ -1,4 +1,4 @@
-Django==1.11.1
+Django==1.11.15
 psycopg2==2.7.1
 bpython==0.16
 
